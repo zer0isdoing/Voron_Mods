@@ -13,7 +13,7 @@ If you are using umbilical cable you can also strain relief.
 
  
 ## Commissioning of CAN Bus Board
-**Video:**
+**Video:**</br>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CXDnr3mxAWE/0.jpg)](https://www.youtube.com/watch?v=CXDnr3mxAWE)
 
 1. Create can0 file under interface.d on raspberry pi:
