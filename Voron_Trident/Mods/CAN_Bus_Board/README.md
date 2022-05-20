@@ -13,7 +13,7 @@ If you are using umbilical cable you can also strain relief.
 
  
 ## Commissioning of CAN Bus Board
-
+**Video:**
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CXDnr3mxAWE/0.jpg)](https://www.youtube.com/watch?v=CXDnr3mxAWE)
 
 1. Create can0 file under interface.d on raspberry pi:
@@ -120,7 +120,7 @@ If you are using umbilical cable you can also strain relief.
 [mcu th]
 canbus_uuid=<YOUR BOARD'S DEVICE ID>
 ```
-8. As a last step, you need to redefine PIN numbers of devices which are connected to your CAN Bus board. Like hotend heater, hotend thermistor, cooling fan, hot end fan,... For this definition, to reference the PIN on the CAN Bus board you need to add the name of your CAN Bus board which is already define by you(In my case 'th').
+8. As a last step, you need to redefine PIN numbers of devices which are connected to your CAN Bus board. Like hotend heater, hotend thermistor, cooling fan, hot end fan,... For this definition, to reference the PIN on the CAN Bus board you need to add the name of your CAN Bus board which is already defined by you(In my case 'th').
 Example PIN definition:
 ``` 
 th: PA1
