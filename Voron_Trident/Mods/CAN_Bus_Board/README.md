@@ -34,7 +34,7 @@ If you are using umbilical cable you can also use strain relief.
 
 2. Edit config file:
    - Send below command in terminal.<br/>
-   ```sudo nano /boot/config.txt```<br/>
+     ```sudo nano /boot/config.txt```<br/>
    - :exclamation: If you are using **mainsail**, delete the lines after '[pi4]' in your config and paste below. If you are not using mainsail skip this one.
    ```
       [pi4]
@@ -62,7 +62,7 @@ If you are using umbilical cable you can also use strain relief.
       
       #[pi02]
       #gpu_mem=128
-	  ```
+	 ```
    - Paste below line to edn of the config file depending on your oscillator on the can hat board.
         - If it is 8.000 written on the oscillator:
         	 ```
@@ -119,7 +119,6 @@ If you are using umbilical cable you can also use strain relief.
    ```
    
 7. Now we need to define this new board to our klipper environment. For that open your 'printer.cfg' file and add below lines:
-![alt text](Images/cfgg.jpg)
 ```
 [mcu th]
 canbus_uuid=<YOUR BOARD'S DEVICE ID>
