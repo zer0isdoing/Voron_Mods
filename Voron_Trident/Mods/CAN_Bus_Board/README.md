@@ -80,9 +80,9 @@ If you are using umbilical cable you can also use strain relief.
    - Send below command in terminal.
      ```
 	 cd ~/klipper
-	 ```
      make clean
      make menuconfig
+	 ```
    - :exclamation: If you are using **HUVUD** board:
    Do the changes like shown in below screenshoot:
    ![alt text](Images/huvud.jpg)
