@@ -24,12 +24,14 @@ If you are using umbilical cable you can also use strain relief.
      ```auto can0
        iface can0 can static
           bitrate 250000
-          up ifconfig $IFACE txqueuelen 128```
+          up ifconfig $IFACE txqueuelen 128
+		  ```
    - If you want to use 500000 bitrate:
      ```auto can0
        iface can0 can static
           bitrate 500000
-          up ifconfig $IFACE txqueuelen 128```	
+          up ifconfig $IFACE txqueuelen 128
+		  ```	
    - Close the editor with CTRL+X and accept the changes.			
 
 2. Edit config file:
@@ -74,7 +76,7 @@ If you are using umbilical cable you can also use strain relief.
         	 ```
 			 enable_uart=1
              dtoverlay=mcp2515-can0,oscillator=12000000,interrupt=25,spimaxfrequency=2000000
-			
+			 ```
    - Close the editor with CTRL+X and accept the changes.
 3. With first 2 steps your raspberry pi should be ready to use CAN Bus hat. Now you need to create firmware for CAN Bus board.
    - Send below command in terminal.
