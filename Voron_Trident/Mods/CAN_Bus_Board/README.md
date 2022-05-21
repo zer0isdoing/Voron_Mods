@@ -25,13 +25,13 @@ If you are using umbilical cable you can also use strain relief.
        iface can0 can static
           bitrate 250000
           up ifconfig $IFACE txqueuelen 128
-		  ```
+	 ```
    - If you want to use 500000 bitrate:
      ```auto can0
        iface can0 can static
           bitrate 500000
           up ifconfig $IFACE txqueuelen 128
-		  ```	
+	 ```	
    - Close the editor with CTRL+X and accept the changes.			
 
 2. Edit config file:
