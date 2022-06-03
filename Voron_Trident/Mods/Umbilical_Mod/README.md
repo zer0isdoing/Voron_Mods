@@ -1,4 +1,4 @@
-# HUVUD Mount For Umbilical Setup
+# Umbilical Mod
  
  This is just simple umbilical mod designed for CAN Bus tool head board. 
  
@@ -14,6 +14,6 @@
  | M3x5x4 Theraded Insert  				|        2 |
  | M3x8 Socket Head Screw              	|        3 |
  | M3x6 Button Head Screw              	|        2 |
- | M3x8 Nut				            	|        2 |
+ | M3 Nut				            	|        2 |
  | M2x10 Selft TappingScrew             |        2 |
  

@@ -1,4 +1,5 @@
-camera="raspi" 
+camera="usb" 
+camera_usb_options="-d /dev/v4l/by-id/usb-SMI_SMI-video-index0 -r 1280x720 -f 10 -sa 2"
 
 ### Windows users: To edit this file use Notepad++, VSCode, Atom or SublimeText.
 ### Do not use Notepad or WordPad.
