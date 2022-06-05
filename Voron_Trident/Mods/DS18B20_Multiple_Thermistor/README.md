@@ -11,7 +11,7 @@
  | Material               				| Quantity |
  | ------------------------------------ | -------- |
  | M3x6 Screw							|        1 |
- | M3 Roll-in 							|        1 |
+ | M3 Roll-In Nut						|        1 |
  
  **HOW:**
  1. You can follow instruction in [here](https://www.circuitbasics.com/raspberry-pi-ds18b20-temperature-sensor-tutorial/) for wiring.
