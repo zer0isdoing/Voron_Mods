@@ -4,7 +4,7 @@
  
  ![alt text](Images/complete.png)
  ![alt text](Images/front.png)
- ![alt text](Images/back.jpg)
+ ![alt text](Images/back.png)
 
  I have planned to run wires from electronics chamber to exhaust fan grill via inside of the rear right frame. Strain relief is placed on the grill and from there umbilical goes to the toolhead.
  

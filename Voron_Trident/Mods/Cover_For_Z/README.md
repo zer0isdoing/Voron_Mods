@@ -7,7 +7,7 @@
  **BOM:**
  | Material               				| Quantity |
  | ------------------------------------ | -------- |
- | M3x6 Flat Head Screw              	|        2 |
+ | M3x6 Flat Head Screw              	|        4 |
  | M3 Hammer Nut						|        4 |
 
  
