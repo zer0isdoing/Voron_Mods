@@ -32,6 +32,7 @@
     ```ls cd /sys/bus/w1/devices```
 
 7. This should give you the device ID of the DB18B20.
+
 ![alt text](Images/ssh1.png)
 
 8. You need to configure your Raspberry Pi as a mcu. For that you can follow [here](https://www.klipper3d.org/RPi_microcontroller.html).
