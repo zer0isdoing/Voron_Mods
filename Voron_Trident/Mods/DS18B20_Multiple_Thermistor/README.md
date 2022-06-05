@@ -3,6 +3,8 @@
  DB18B20 is 1-wire thermistor and it is natively supported by klipper. It allows you add thermistor in same 3 wires, which are GND, DATA and Vcc.
  I have placed it near by A drive for chamber and between A and B stepper drivers for electronic chamber. 
  
+ The sensor hold by 3 PIN dupont connector. You do not need to use glue or anything.
+ 
  ![alt text](Images/ph.jpeg)
  
  **BOM:**
