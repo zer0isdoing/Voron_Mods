@@ -53,7 +53,7 @@
     max_temp: 70
     target_temp: 50.0
     control: watermark
-    gcode_id: C```
+    gcode_id: C
 As it can be seen I have connected my chamber thermistor to my exhaust fan and defined this one as a ```temperature_fan```. With this, I can set a target temperature and if the temperatur of chamber is bigger that target temperature my exhuast fan start running until it drops to target temperature. The control is not accurate for example like heating bed. For example while printing I set this to 50 C, it set starts once the chamber reaches the ~50 C and it stops when chamber drops to ~45 C. Which is better in my opinion because it reduces start/stop cycle.
 
 11. If you add thermistor also in your electronics chamber paste also below to your config and edit ```PIN``` and ```serial_no``` with yours.
@@ -71,7 +71,7 @@ As it can be seen I have connected my chamber thermistor to my exhaust fan and d
     min_temp: 0
     max_temp: 80
     target_temp: 40.0
-    control: watermark```
+    control: watermark
 
 12. Send ```FIRMWARE_RESTART``` to your printer via mainsail/fluidd. Now you should have thermistor.
  ![alt text](Images/ss1.png)
