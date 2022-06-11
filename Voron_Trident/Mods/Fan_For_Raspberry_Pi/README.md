@@ -25,5 +25,5 @@ control: watermark
 **BOM:**
 | Material               															| Quantity |
 | ------------------------------------  											| -------- |
-| M3x12 Button Head Screw          												   	|        4 |
+| M3x12 Button Socket Screw          												   	|        4 |
 | [40x10 Fan](https://s.click.aliexpress.com/e/_A9V7Yd)             				|        1 |
