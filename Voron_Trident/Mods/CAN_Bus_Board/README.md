@@ -39,14 +39,14 @@ If you are using umbilical cable you can also use strain relief.
      ```sudo nano /boot/config.txt```<br/>
    - :exclamation: If you are using **mainsail**, delete the lines after '[pi4]' in your config and paste below. If you are not using mainsail skip this one.
    ```
-      [pi4]
+      #[pi4]
       # Enable DRM VC4 V3D driver on top of the dispmanx display stack
-      dtoverlay=vc4-fkms-v3d
-      max_framebuffers=2
+      #dtoverlay=vc4-fkms-v3d
+      #max_framebuffers=2
       # Do not use more than 256Mb on Pi Model 4, it uses its own Management.
-      gpu_mem=256
+      #gpu_mem=256
       
-      [all]
+      #[all]
       #dtoverlay=vc4-fkms-v3d
       
       # Enable Hardware UART for Serial Communication
@@ -54,8 +54,8 @@ If you are using umbilical cable you can also use strain relief.
       #dtoverlay=disable-bt
       
       # Enable Raspicam devices at boot
-      start_x=1
-      gpu_mem=256
+      #start_x=1
+      #gpu_mem=256
       
       ## Zero Models need special handling
       #[pi0w]

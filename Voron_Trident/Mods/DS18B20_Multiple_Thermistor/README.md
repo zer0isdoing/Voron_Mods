@@ -31,7 +31,7 @@
 
      ```sudo modprobe w1-therm```
 
-    ```ls cd /sys/bus/w1/devices```
+    ```ls /sys/bus/w1/devices```
 
 7. This should give you the device ID of the DB18B20.
 
