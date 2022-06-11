@@ -2,7 +2,7 @@
  
 It is fan mount for DIN rail to cool down the raspberry pi. 
  
-![alt text](Images/rp_fan.HEIC)
+![alt text](Images/rp_fan.jpg)
 
 You need to add this fan in your config file. I am using fan as a 'temperature fan'. Which means, klipper will always try to keep raspberry pi at target temperature. As feedback, I am using temperature of raspberry pi. For this you need to flash your raspberry pi as a second mcu. For that, you can follow [this](https://www.klipper3d.org/RPi_microcontroller.html). 
 
