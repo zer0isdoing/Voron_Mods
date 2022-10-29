@@ -21,13 +21,15 @@ If you are using umbilical cable you can also use strain relief.
      ```sudo nano /etc/network/interfaces.d/can0```
    - It will create blank text file, paste below in this blank text file.
    - If you want to use 250000 bitrate:
-     ```auto can0
+     ```
+	auto can0
        iface can0 can static
           bitrate 250000
           up ifconfig $IFACE txqueuelen 128
 	 ```
    - If you want to use 500000 bitrate:
-     ```auto can0
+     ```
+	auto can0
        iface can0 can static
           bitrate 500000
           up ifconfig $IFACE txqueuelen 128
