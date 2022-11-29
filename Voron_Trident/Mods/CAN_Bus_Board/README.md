@@ -37,38 +37,11 @@ If you are using umbilical cable you can also use strain relief.
 2. Edit config file:
    - Send below command in terminal.<br/>
      ```sudo nano /boot/config.txt```<br/>
-   - :exclamation: If you are using **mainsail**, delete the lines after '[pi4]' in your config and paste below. If you are not using mainsail skip this one.
-   ```
-      #[pi4]
-      # Enable DRM VC4 V3D driver on top of the dispmanx display stack
-      #dtoverlay=vc4-fkms-v3d
-      #max_framebuffers=2
-      # Do not use more than 256Mb on Pi Model 4, it uses its own Management.
-      #gpu_mem=256
-      
-      #[all]
-      #dtoverlay=vc4-fkms-v3d
-      
-      # Enable Hardware UART for Serial Communication
-      #enable_uart=1
-      #dtoverlay=disable-bt
-      
-      # Enable Raspicam devices at boot
-      #start_x=1
-      #gpu_mem=256
-      
-      ## Zero Models need special handling
-      #[pi0w]
-      #dtoverlay=pi3-disable-bt
-      #gpu_mem=128
-      
-      #[pi02]
-      #gpu_mem=128
-	 ```
+   - Paste below line after end of the [all] section. 
+
    - Paste below line to edn of the config file depending on your oscillator on the can hat board.
         - If it is 8.000 written on the oscillator:
         	 ```
-			 enable_uart=1
              dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=25,spimaxfrequency=1000000 
 			 ```
    - Add below line depending on your oscillator on the can hat board.
