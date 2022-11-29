@@ -38,13 +38,12 @@ If you are using umbilical cable you can also use strain relief.
    - Send below command in terminal.<br/>
      ```sudo nano /boot/config.txt```<br/>
    - Paste below line after end of the [all] section. 
-
-   - Paste below line to edn of the config file depending on your oscillator on the can hat board.
+   - Add below line depending on your oscillator on the can hat board. [8 Mhz]
         - If it is 8.000 written on the oscillator:
         	 ```
              dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=25,spimaxfrequency=1000000 
 			 ```
-   - Add below line depending on your oscillator on the can hat board.
+   - Add below line depending on your oscillator on the can hat board. [12 Mhz]
         - If it is 12.000 written on the oscillator:
         	 ```
 			 enable_uart=1
